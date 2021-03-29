@@ -264,10 +264,13 @@ elif [[ $secim == 2 ]];then
 	chmod +x metasploit.sh
 	./metasploit.sh
 	pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
+	cd ..
+	cd
 	cd metasploit-framework
 	./msfconsole
 	exit
 	cd ..
+	cd
 	rm -rf metakurucu.sh
 	
 elif [[ $secim == 3 ]];then
