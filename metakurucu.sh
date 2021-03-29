@@ -70,12 +70,12 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 	
 	
 elif [[ $secim == 2 ]];then
-	echo -e "\e[42m... [H]=========Mr.Root========[-][o][x]\e[0m
-\e[42m... |      \e[30;48;5;82mMetasploit Framework\e[0m\e[42m        |\e[0m
-\e[42m... |           \e[30;48;5;82mRuby Eror\e[0m\e[42m              |\e[0m
-\e[42m... |             \e[30;48;5;82mFİX\e[0m\e[42m                  |\e[0m
-\e[42m... |           \e[30;48;5;82mSürüm 1.0\e[0m\e[42m              |\e[0m
-\e[42m... |================================= |\e[0m\e[42m\e[0m
+	echo -e "            \e[42m... [H]=========Mr.Root========[-][o][x]\e[0m
+            \e[42m... |      \e[30;48;5;82mMetasploit Framework\e[0m\e[42m        |\e[0m
+            \e[42m... |           \e[30;48;5;82mRuby Eror\e[0m\e[42m              |\e[0m
+            \e[42m... |             \e[30;48;5;82mFİX\e[0m\e[42m                  |\e[0m
+            \e[42m... |           \e[30;48;5;82mSürüm 1.0\e[0m\e[42m              |\e[0m
+            \e[42m... |================================= |\e[0m\e[42m\e[0m
     	"
     	sleep 5
 	echo -e '\e[34mBlue
