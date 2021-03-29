@@ -12,7 +12,7 @@ echo -e '\033[33;35m============================================================
 echo
 echo -e "\e[30;48;5;82m[1]\e[0m \e[30;48;5;82mKURULMADAN ÖNCE BİLİNMESİ GEREKENLER\e[0m"
 echo -e "\e[30;48;5;82m[2]\e[0m \e[30;48;5;82mMETASPLOİT-FRAMEWORK KURULUM\e[0m"
-echo -e "\e[30;48;5;82m[3]\e[0m \e[30;48;5;82mÇIKIŞ\e[0m"
+echo -e "\e[30;48;5;82m[x]\e[0m \e[30;48;5;82mÇIKIŞ\e[0m"
 echo
 read -e -p $'\e[31mroot@kali~#\e[0m'  secim
 clear
@@ -77,7 +77,7 @@ elif [[ $secim == 2 ]];then
 \e[42m... |           \e[30;48;5;82mSürüm 1.0\e[0m\e[42m              |\e[0m
 \e[42m... |================================= |\e[0m\e[42m\e[0m
     	"
-    	sleep 3
+    	sleep 1
 	echo -e '\e[34mBlue
             ######
             ##
@@ -110,7 +110,7 @@ elif [[ $secim == 2 ]];then
 
 
                      \e[5;36m  《《《《《《《《 Mr.Root 》》》》》》》》\e[0m'
-	sleep 3
+	sleep 1
 	echo -e '\e[35m
                ###
               ####
@@ -138,7 +138,7 @@ elif [[ $secim == 2 ]];then
                                               \             (
                                                \_____________)\e[0m
 	'
-	sleep 3
+	sleep 1
 	echo -e '\e[36m
               ###
             ##  ##
@@ -176,14 +176,14 @@ elif [[ $secim == 2 ]];then
                "$$$$$"                      ""$$$$""
                  $$$"                         $$$$"\e[0m
 	'
-	sleep 3
+	sleep 1
 	echo -e '
              \e[30;48;5;82m####\e[0m
-            \e[30;48;5;82m##\e[30;48;5;82m  \e[0m\e[30;48;5;82m##\e[0m
+            \e[30;48;5;82m##\e[0m  \e[30;48;5;82m##\e[0m
                 \e[30;48;5;82m##\e[0m
               \e[30;48;5;82m###\e[0m
              \e[30;48;5;82m##\e[0m
-            \e[30;48;5;82m##\e[30;48;5;82m  \e[0m\e[30;48;5;82m##\e[0m
+            \e[30;48;5;82m##\e[0m  \e[30;48;5;82m##\e[0m
             \e[30;48;5;82m######\e[0m
 	'      
 	echo -e "\e[5;93m
@@ -210,7 +210,7 @@ elif [[ $secim == 2 ]];then
                          :::::::::::::::::::
                               :::::::::\e[0m
 	"   
-	sleep 3
+	sleep 1
 	echo -e '\e[40;38;5;82m
               ##
              ###
@@ -244,7 +244,7 @@ elif [[ $secim == 2 ]];then
             ?MXT@Wx.~    :     ~"##*$$$$M~\e[0m	
 
 	'
-	sleep 3
+	sleep 1
 	echo -e '
             \e[40;38;5;82m░█░█░█░█░█▀▄░█░█░█░░░█░█░█▄█░\e[0m\e[40;38;5;82m░░█▀▄░█▀█░█▀▀░█░░░█▀█░█▀▄░▀█▀\e[0m
             \e[40;38;5;82m░█▀▄░█░█░█▀▄░█░█░█░░░█░█░█░█░\e[0m\e[40;38;5;82m░░█▀▄░█▀█░▀▀█░█░░░█▀█░█░█░░█░\e[0m
@@ -271,7 +271,7 @@ elif [[ $secim == 2 ]];then
 	chmod +x *
 	./msfconsole
 	
-elif [[ $secim == 3 ]];then
+elif [[ $secim == x ]];then
 	echo -e '\e[96m
 	
                        uuuuuuuuuuuuuuuuuuuuu.
@@ -327,3 +327,4 @@ $$         $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 else
 	echo "hatalı seçim"
 fi
+
