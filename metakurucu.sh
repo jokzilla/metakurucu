@@ -266,12 +266,10 @@ elif [[ $secim == 2 ]];then
 	pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
 	cd ..
 	cd
+	rm -rf metakurucu
 	cd metasploit-framework
+	chmod +x *
 	./msfconsole
-	exit
-	cd ..
-	cd
-	rm -rf metakurucu.sh
 	
 elif [[ $secim == 3 ]];then
 	echo -e '\e[96m
