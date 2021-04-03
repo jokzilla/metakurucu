@@ -1,5 +1,7 @@
 #!/bin/bash 
+sleep 3
 clear
+sleep 3
 echo -e '\033[33;35m=============================================================\e[0m
 \e[34m=\e[0m\e[1;31;42m  ▄▀▀▄ ▄▀▄  ▄▀▀▄▀▀▀▄  ▄▀▀▄▀▀▀▄  ▄▀▀▀▀▄   ▄▀▀▀▀▄   ▄▀▀▀█▀▀▄ \e[0m\e[34m=\e[0m
 \e[34m=\e[0m\e[1;31;42m █  █ ▀  █ █   █   █ █   █   █ █      █ █      █ █    █  ▐ \e[0m\e[34m=\e[0m
@@ -18,6 +20,7 @@ echo
 read -e -p $'\e[31mroot@kali~#\e[0m'  secim
 clear
 if [[ $secim == 1 ]];then
+sleep 3
 	echo -e '
 \e[1;31;42mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
@@ -59,7 +62,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd.oNMMMMNNmNMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\e[0m
 \e[5;30;48;5;82mINSTAGRAM---->atess681\e[0m'
-	
+	sleep 2
 	echo -e "\e[43mMetasploiti kurmadan önce termuxu sıfırlayın\e[0m"
 	echo -e "\e[43mSıfırladıktan sonra git paketi dışında hiç bir paket indirmeyiniz yoksa\e[0m"
 	echo -e "\e[43mÇalışmaz terkrar ruby hatası alırsınız\e[0m"
@@ -71,6 +74,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 	
 	
 elif [[ $secim == 2 ]];then
+sleep 2
 	echo -e "            \e[42m... [H]=========Mr.Root========[-][o][x]\e[0m
             \e[42m... |      \e[30;48;5;82mMetasploit Framework\e[0m\e[42m        |\e[0m
             \e[42m... |           \e[30;48;5;82mRuby Eror\e[0m\e[42m              |\e[0m
@@ -266,6 +270,7 @@ elif [[ $secim == 2 ]];then
 	./msfconsole
 	
 elif [[ $secim == x ]];then
+sleep 3
 	echo -e '\e[96m
 	
                        uuuuuuuuuuuuuuuuuuuuu.
