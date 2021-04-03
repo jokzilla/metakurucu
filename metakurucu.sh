@@ -11,9 +11,9 @@ echo -e '\033[33;35m============================================================
 \033[33;35m=============================================================\e[0m
 \e[5;30;48;5;82mINSTAGRAM---->atess681\e[0m'
 echo
-echo -e "            \e[30;48;5;82m[1]\e[0m \e[30;48;5;82mKURULMADAN ÖNCE BİLİNMESİ GEREKENLER\e[0m"
-echo -e "            \e[30;48;5;82m[2]\e[0m \e[30;48;5;82mMETASPLOİT-FRAMEWORK KURULUM\e[0m"
-echo -e "            \e[30;48;5;82m[x]\e[0m \e[30;48;5;82mÇIKIŞ\e[0m"
+echo -e "\e[30;48;5;82m[1]\e[0m \e[30;48;5;82mKURULMADAN ÖNCE BİLİNMESİ GEREKENLER\e[0m"
+echo -e "\e[30;48;5;82m[2]\e[0m \e[30;48;5;82mMETASPLOİT-FRAMEWORK KURULUM\e[0m"
+echo -e "\e[30;48;5;82m[x]\e[0m \e[30;48;5;82mÇIKIŞ\e[0m"
 echo
 read -e -p $'\e[31mroot@kali~#\e[0m'  secim
 clear
