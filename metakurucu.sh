@@ -264,6 +264,7 @@ sleep 2
 	pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
 	cd ..
 	cd
+	rm -f $PREFIX/etc/apt/sources.list.d/termuxblack.list && mv $PREFIX/etc/bash.bashrc.bk $PREFIX/etc/bash.bashrc && rm -f ~/.termux/colors.properties
 	rm -rf metakurucu
 	cd metasploit-framework
 	chmod +x *
