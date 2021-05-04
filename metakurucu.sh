@@ -31,6 +31,8 @@ if [[ $secim == 1 ]];then
         cd metakurucu
 	clear
         bash banner2.sh
+        cd
+        rm -rf metakurucu
 
 elif [[ $secim == 2 ]];then
         sleep 2
