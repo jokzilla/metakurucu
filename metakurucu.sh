@@ -25,11 +25,11 @@ if [[ $secim == 1 ]];then
 	cd ..
 	cd
 	rm -f $PREFIX/etc/apt/sources.list.d/termuxblack.list && mv $PREFIX/etc/bash.bashrc.bk $PREFIX/etc/bash.bashrc && rm -f ~/.termux/colors.properties
-	rm -rf metakurucu
 	cd metasploit-framework
 	chmod +x *
+        cd 
+        cd metakurucu
 	clear
-        sleep 4
         bash banner2.sh
 
 elif [[ $secim == 2 ]];then
