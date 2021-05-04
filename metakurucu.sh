@@ -29,6 +29,7 @@ if [[ $secim == 1 ]];then
 	cd metasploit-framework
 	chmod +x *
 	clear
+        sleep 4
         bash banner2.sh
 
 elif [[ $secim == 2 ]];then
