@@ -24,15 +24,13 @@ if [[ $secim == 1 ]];then
 	pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
 	cd ..
 	cd
+        rm -rf metakurucu
 	rm -f $PREFIX/etc/apt/sources.list.d/termuxblack.list && mv $PREFIX/etc/bash.bashrc.bk $PREFIX/etc/bash.bashrc && rm -f ~/.termux/colors.properties
 	cd metasploit-framework
 	chmod +x *
-        cd 
-        cd metakurucu
 	clear
-        bash banner2.sh
-        cd
-        rm -rf metakurucu
+        
+        
 
 elif [[ $secim == 2 ]];then
         sleep 2
