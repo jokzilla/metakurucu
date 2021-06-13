@@ -69,6 +69,7 @@ $color
 \e[30;48;5;82mGelen sorularda y basın\e[0m\e[0m
 \e[30;48;5;82mMetasploit-Framework hakkında daha çok bilgi için buraya bakın\e[0m\e[0m
 \e[30;48;5;82mhttps://www.turkhackteam.org/linux/1316435-m-e-t-s-p-l-o-i-t-kullanimi-shujaira.html\e[0m\e[0m
-
+\e[30;48;5;82mhttps://termuxxtoolss.blogspot.com/2021/05/trojen-olusturma.html kurulumdan sonra\e[0m\e[0m
+\e[30;48;5;82mhata alıyorsanız buraya bakın\e[0m\e[0m
 
 "
